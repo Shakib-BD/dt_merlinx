@@ -32,10 +32,7 @@ TARGET_USE_GOOGLE_TELEPHONY := true
 TARGET_INCLUDE_MATLOG := false
 TARGET_DEFAULT_ADB_ENABLED := true
 
-# Maintainer
-# ALPHA_BUILD_TYPE := Unofficial
-# ALPHA_MAINTAINER := Shakib-BD
-    
+# Device identifiers
 PRODUCT_NAME := lineage_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
