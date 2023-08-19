@@ -1,0 +1,34 @@
+[
+  {
+    "repository": "android_device_xiaomi_merlinx",
+    "target_path": "device/xiaomi/merlinx"
+  },
+  {
+    "repository": "android_device_xiaomi_mt6768-common",
+    "target_path": "device/xiaomi/mt6768-common"
+  },
+  {
+    "repository": "android_kernel_xiaomi_mt6768",
+    "target_path": "kernel/xiaomi/mt6768"
+  },
+  {
+    "repository": "proprietary_vendor_xiaomi_mt6768-common",
+    "target_path": "vendor/xiaomi/mt6768-common"
+  },
+  {
+    "repository": "proprietary_vendor_xiaomi_merlinx",
+    "target_path": "vendor/xiaomi/merlinx"
+  },
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "clang-r450784d",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r450784d"
+  }
+]
