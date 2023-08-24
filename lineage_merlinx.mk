@@ -14,11 +14,60 @@ $(call inherit-product, device/xiaomi/merlinx/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# SOC
+PROCESSOR_MODEL := mt6768
+
+# AlphaDroid Build Type & Maintainer stuff.
+ALPHA_MAINTAINER := Shakib_BD
+ALPHA_BUILD_TYPE := UNOFFICIAL
+
+# Gapps Build Details.
+WITH_GAPPS := false
+TARGET_GAPPS_ARCH := false
+
+# Gapps custom
+# TARGET_INCLUDE_GOOGLE_APP := true
+# TARGET_INCLUDE_GOOGLE_CALCULATOR := true
+# TARGET_INCLUDE_GOOGLE_CALENDAR := true
+# TARGET_INCLUDE_GOOGLE_CHROME := true
+# TARGET_INCLUDE_GOOGLE_DESKCLOCK := true
+# TARGET_INCLUDE_GOOGLE_DRIVE := false
+# TARGET_INCLUDE_GMAIL := true
+# TARGET_INCLUDE_GOOGLE_MAPS := false
+# TARGET_INCLUDE_GOOGLE_PHOTOS := true
+# (NOT YET) TARGET_INCLUDE_GOOGLE_SETUP := false
+# TARGET_INCLUDE_PIXEL_FRAMEWORK := true
+
+# Debugging Flags
+TARGET_INCLUDE_MATLOG := false
+TARGET_DEFAULT_ADB_ENABLED := false
+
+# Another stuff
+TARGET_HAS_UDFPS := false
+TARGET_ENABLE_BLUR := false
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_DISABLE_EPPE := true
+
+# Pixel customization
+TARGET_USE_PIXEL_FRAMEWORK := false
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_USE_GOOGLE_TELEPHONY := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := false
+
 PRODUCT_NAME := lineage_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9
+TARGET_VENDOR := Xiaomi
+BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
