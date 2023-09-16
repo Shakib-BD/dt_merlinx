@@ -14,9 +14,6 @@ $(call inherit-product, device/xiaomi/merlinx/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# SOC
-PROCESSOR_MODEL := mt6768
-
 # AlphaDroid Build Type & Maintainer stuff.
 ALPHA_MAINTAINER := Shakib_BD
 ALPHA_BUILD_TYPE := UNOFFICIAL
