@@ -12,9 +12,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/merlinx/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/config/common.mk)
 
-PRODUCT_NAME := lineage_merlinx
+# Syberia stuff
+SYBERIA_BUILD_TYPE := UNOFFICIAL
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# FOD
+TARGET_HAS_FOD := false
+TARGET_WANTS_FOD_ANIMATIONS := false
+
+# GApps
+# WITH_GMS=false
+
+PRODUCT_NAME := syberia_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

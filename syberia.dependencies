@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX"
+  },
+  {
+    "repository": "dt_common_merlinx",
+    "target_path": "device/xiaomi/mt6768-common"
+  },
+  {
+    "repository": "dt_merlinx",
+    "target_path": "device/xiaomi/merlinx"
+  },
+  {
+    "repository": "kt_merlinx",
+    "target_path": "kernel/xiaomi/mt6768"
+  },
+  {
+    "repository": "vt_common_merlinx",
+    "target_path": "vendor/xiaomi/mt6768-common"
+  },
+  {
+    "repository": "vt_common",
+    "target_path": "vendor/xiaomi/merlinx"
+  },
+  {
+    "repository": "hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "clang-r487747c",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r487747c"
+  }
+]
